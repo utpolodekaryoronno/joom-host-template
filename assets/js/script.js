@@ -1,4 +1,8 @@
 $(document).ready(function(){
+  // click menu bar 
+    $('.menu-bar').click(function(){
+    $('.header-menu-right').slideToggle();
+  });
   // owlCarousel
   // pay-service
   $('.pay-service').owlCarousel({
